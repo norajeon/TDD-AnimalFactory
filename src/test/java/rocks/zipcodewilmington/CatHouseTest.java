@@ -48,7 +48,7 @@ public class CatHouseTest {
         CatHouse.add(kitster);
 
         // When
-        CatHouse.remove(kitten);
+        CatHouse.remove(id);
         Cat testing = CatHouse.getCatById(id);
 
         // Then

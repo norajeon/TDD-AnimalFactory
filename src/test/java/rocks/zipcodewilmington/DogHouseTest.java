@@ -44,7 +44,7 @@ public class DogHouseTest {
         DogHouse.add(dogster);
 
         // When
-        DogHouse.remove(doggy);
+        DogHouse.remove(id);
         Dog testing = DogHouse.getDogById(id);
 
         // Then
